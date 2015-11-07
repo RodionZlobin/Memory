@@ -2,7 +2,7 @@
 import java.io.IOException;
 import java.util.Arrays;
 
-public class MemoryRDN
+public class MemoryGame
 {
 
 	public static void main(String[] args) throws IOException
@@ -41,7 +41,6 @@ public class MemoryRDN
 			{
 				myVar.control = 1;
 			}
-			// myMemoryGame.reset()
 
 		}
 		while (myVar.control != 1);

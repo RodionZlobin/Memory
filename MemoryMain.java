@@ -12,15 +12,10 @@ public class MemoryMain
 		int l = 0;
 		int m = 0;
 		int n = 0;
-		// int controlnummer1 = 0;
-		// int controlnummer2 = 0;
+		
 		String number1 = "";
 		String number2 = "";
-		// int numIn1 = 0;
-		// int numIn2 = 0;
-
-		// int x = 0;
-		// int y = 0;
+		
 
 		String display[][] = {
 				{ "1", "2", "3", "4" },
@@ -30,8 +25,6 @@ public class MemoryMain
 				{ "A", "C", "B", "A" },
 				{ "D", "B", "D", "C" }
 		};
-
-		// myMemoryGame = new MemoryGame();
 
 		do
 		{
@@ -64,14 +57,7 @@ public class MemoryMain
 			{
 				control = 1;
 			}
-			// myMemoryGame.reset()
-			k = 0;
-			l = 0;
-			m = 0;
-			n = 0;
-			number1 = "";
-			number2 = "";
-
+			
 		}
 		while (control != 1);
 
